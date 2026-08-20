@@ -1,60 +1,141 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>ZERO81 GreenTech | Tecnologia • Sustentabilidade • Futuro</title>
-<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ZERO81 GREENTECH | Tecnologia e Sustentabilidade</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
-  <nav>
-    <div class="logo">ZERO<span>81</span> GreenTech</div>
-    <ul class="menu" id="menu">
-      <li><a href="index.html">Início</a></li>
-      <li><a href="sobre.html">Sobre</a></li>
-      <li><a href="solucoes.html">Soluções</a></li>
-      <li><a href="contato.html">Contato</a></li>
-    </ul>
-    <button class="menu-btn" onclick="document.getElementById('menu').classList.toggle('open')">☰</button>
-  </nav>
-</header>
+  <!-- HEADER -->
+  <header>
+    <nav>
+      <a href="#home" class="logo">ZERO<span>81</span></a>
+      <ul class="menu" id="menu">
+        <li><a href="#home">Início</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#solucoes">Soluções</a></li>
+        <li><a href="#impacto">Impacto</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+      <button class="menu-btn" id="menuBtn">☰</button>
+    </nav>
+  </header>
 
-<section class="hero">
-  <div class="container">
-    <h1>Inovação que respeita o planeta 🌱</h1>
-    <p>Unimos tecnologia de ponta e responsabilidade ambiental para construir um futuro mais inteligente e sustentável.</p>
-    <a href="solucoes.html" class="btn">Conheça nossas soluções</a>
-  </div>
-</section>
-
-<section>
-  <div class="container">
-    <h2 class="section-title">Por que a <span>ZERO81</span>?</h2>
-    <p class="subtitle">Transformamos desafios ambientais em oportunidades através da tecnologia.</p>
-    <div class="cards">
-      <div class="card"><div class="icon">⚡</div><h3>Eficiência Energética</h3><p>Soluções que reduzem consumo e maximizam recursos com inteligência de dados.</p></div>
-      <div class="card"><div class="icon">🌍</div><h3>Impacto Positivo</h3><p>Cada projeto pensado para reduzir a pegada de carbono do seu negócio.</p></div>
-      <div class="card"><div class="icon">🚀</div><h3>Visão de Futuro</h3><p>Antecipamos tendências para manter você sempre à frente.</p></div>
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="container">
+      <h1>Tecnologia que respeita o planeta</h1>
+      <p>A ZERO81 GREENTECH une inovação e sustentabilidade para construir um futuro mais limpo, inteligente e responsável.</p>
+      <a href="#solucoes" class="btn">Conheça nossas soluções</a>
     </div>
-  </div>
-</section>
+  </section>
 
-<footer>
-  <div class="footer-content">
-    <a href="index.html" class="logo-link">
-      <img src="logo.png" alt="ZERO81 GreenTech" class="logo-img">
-    </a>
+  <!-- SOBRE -->
+  <section id="sobre">
+    <div class="container">
+      <h2 class="section-title">Sobre a <span>ZERO81</span></h2>
+      <p class="subtitle">Somos uma empresa brasileira que desenvolve tecnologias sustentáveis para reduzir impactos ambientais e acelerar a transição para uma economia verde.</p>
+      <div class="cards">
+        <div class="card">
+          <div class="icon">🌱</div>
+          <h3>Missão</h3>
+          <p>Transformar desafios ambientais em soluções tecnológicas acessíveis e escaláveis.</p>
+        </div>
+        <div class="card">
+          <div class="icon">🚀</div>
+          <h3>Visão</h3>
+          <p>Ser referência nacional na integração entre inovação digital e responsabilidade ecológica.</p>
+        </div>
+        <div class="card">
+          <div class="icon">🤝</div>
+          <h3>Valores</h3>
+          <p>Sustentabilidade, ética, inovação contínua e compromisso com as próximas gerações.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SOLUÇÕES -->
+  <section id="solucoes" style="background:var(--claro);">
+    <div class="container">
+      <h2 class="section-title">Nossas <span>Soluções</span></h2>
+      <p class="subtitle">Tecnologia de ponta aplicada à sustentabilidade em diversos setores.</p>
+      <div class="cards">
+        <div class="card">
+          <div class="icon">⚡</div>
+          <h3>Energia Limpa</h3>
+          <p>Sistemas inteligentes de monitoramento e otimização de energias renováveis.</p>
+        </div>
+        <div class="card">
+          <div class="icon">♻️</div>
+          <h3>Gestão de Resíduos</h3>
+          <p>Plataformas digitais para rastreamento e reaproveitamento de materiais.</p>
+        </div>
+        <div class="card">
+          <div class="icon">📊</div>
+          <h3>Monitoramento ESG</h3>
+          <p>Dashboards e dados em tempo real para decisões sustentáveis e transparentes.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- IMPACTO -->
+  <section id="impacto">
+    <div class="container">
+      <h2 class="section-title">Nosso <span>Impacto</span></h2>
+      <p class="subtitle">Resultados que geram valor para o negócio e para o planeta.</p>
+      <div class="cards">
+        <div class="card">
+          <div class="icon">🌍</div>
+          <h3>+120 mil</h3>
+          <p>Toneladas de CO₂ evitadas com nossas soluções.</p>
+        </div>
+        <div class="card">
+          <div class="icon">🏢</div>
+          <h3>+80 empresas</h3>
+          <p>Parceiras rumo à transição sustentável.</p>
+        </div>
+        <div class="card">
+          <div class="icon">💧</div>
+          <h3>+30%</h3>
+          <p>De economia média de recursos naturais.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contato" style="background:var(--claro);">
+    <div class="container">
+      <h2 class="section-title">Fale <span>Conosco</span></h2>
+      <p class="subtitle">Vamos construir juntos um futuro mais sustentável.</p>
+      <div style="text-align:center;">
+        <a href="mailto:contato@zero81.com.br" class="btn">Enviar mensagem</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="logo" style="justify-content:center;">ZERO<span>81</span></div>
     <ul class="fmenu">
-      <li><a href="index.html">Início</a></li>
-      <li><a href="sobre.html">Sobre</a></li>
-      <li><a href="solucoes.html">Soluções</a></li>
-      <li><a href="contato.html">Contato</a></li>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#solucoes">Soluções</a></li>
+      <li><a href="#impacto">Impacto</a></li>
+      <li><a href="#contato">Contato</a></li>
     </ul>
-    <small>© 2026 ZERO81 GreenTech — Tecnologia • Sustentabilidade • Futuro</small>
-  </div>
-</footer>
+    <small>© 2026 ZERO81 GREENTECH. Todos os direitos reservados.</small>
+  </footer>
+
+  <script>
+    const btn = document.getElementById('menuBtn');
+    const menu = document.getElementById('menu');
+    btn.addEventListener('click', () => menu.classList.toggle('open'));
+    menu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => menu.classList.remove('open')));
+  </script>
 
 </body>
 </html>
